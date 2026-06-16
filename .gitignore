@@ -1,0 +1,13 @@
+# Dependency folders (Git should never track these)
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Private environment credentials (CRITICAL)
+.env
+server/.env
+client/.env
+
+# Log files
+npm-debug.log*
+.DS_Store
